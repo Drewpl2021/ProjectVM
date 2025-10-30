@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/carreras")
-@CrossOrigin(origins = "http://44.220.152.215/")
+//@CrossOrigin(origins = "http://44.220.152.215/")
 public class CarrerasController {
     @Autowired
     private CarrerasService carrerasService;
