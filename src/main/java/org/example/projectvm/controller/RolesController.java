@@ -13,8 +13,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/roles")
-@CrossOrigin(origins = "http://34.207.235.80/")
+//@CrossOrigin(origins = "http://34.207.235.80/")
 //@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 
 public class RolesController {
     @Autowired
