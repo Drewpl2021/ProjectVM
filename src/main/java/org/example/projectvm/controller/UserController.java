@@ -27,8 +27,8 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/user")
-//@CrossOrigin(origins = "http://34.207.235.80/")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://54.226.189.166")
+//@CrossOrigin(origins = "http://localhost:4200")
 //@CrossOrigin(origins = "*")
 
 public class UserController {
