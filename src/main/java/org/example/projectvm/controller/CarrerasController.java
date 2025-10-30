@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/carreras")
-@CrossOrigin(origins = "http://54.226.189.166")
+@CrossOrigin(origins = "http://3.91.220.6")
 //@CrossOrigin(origins = "http://localhost:4200")
 //@CrossOrigin(origins = "*")
 
