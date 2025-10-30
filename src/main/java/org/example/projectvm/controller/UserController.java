@@ -28,6 +28,8 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/user")
 //@CrossOrigin(origins = "http://44.220.152.215/")
+@CrossOrigin(origins = "http://localhost:4200")
+
 public class UserController {
     @Autowired
     private UserService userService;

@@ -14,6 +14,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/roles")
 //@CrossOrigin(origins = "http://44.220.152.215/")
+@CrossOrigin(origins = "http://localhost:4200")
+
 public class RolesController {
     @Autowired
     private RolesService rolesService;
