@@ -16,8 +16,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/evento")
-//@CrossOrigin(origins = "http://44.220.152.215/")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://34.207.235.80/")
+//@CrossOrigin(origins = "http://localhost:4200")
 
 public class EventoController {
     @Autowired
