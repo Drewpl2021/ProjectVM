@@ -27,8 +27,8 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/inscripciones")
 //@CrossOrigin(origins = "http://34.207.235.80/")
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "*")
 
 public class InscripcionesController {
     @Autowired
